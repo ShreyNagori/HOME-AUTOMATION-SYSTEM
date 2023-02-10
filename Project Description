@@ -1,0 +1,39 @@
+Project Title: Home Automation System
+
+Objective: 
+The goal of this project is to design a home automation system that uses an Arduino board, a photo resistor, a TMP36 temperature sensor, a DC motor, a light bulb, and a PIR sensor to control various elements of the home environment. 
+The system will allow the user to monitor and control the light levels, temperature, and motion detection in the home from a single platform.
+
+Components:
+Arduino Uno
+Photo Resistor
+TMP36 Temperature Sensor
+DC Motor
+Light Bulb
+PIR Sensor
+Jumper Wires
+Breadboard
+
+Functionality:
+The photo resistor will be used to measure the light levels in the home environment. 
+The TMP36 temperature sensor will be used to measure the temperature. 
+The DC motor will be used to control a window blind or shutter. 
+The light bulb will be used to control the brightness of the room. 
+The PIR sensor will be used to detect motion in the home. 
+The Arduino Uno will be used to control all the components and receive input from the sensors.
+
+Setup:
+Connect the photo resistor, TMP36 temperature sensor, DC motor, light bulb, and PIR sensor to the Arduino board.
+Connect the jumper wires to the appropriate pins on the Arduino board and components.
+Upload the code to the Arduino board.
+
+Code:
+The code for the home automation system will be written in the Arduino Integrated Development Environment (IDE). 
+The code will use libraries for the photo resistor, TMP36 temperature sensor, and PIR sensor to receive input from the sensors. 
+The code will also use libraries for the DC motor and light bulb to control the respective components. 
+The code will include conditional statements to adjust the brightness of the light bulb based on the light level measured by the photo resistor and control the DC motor based on the temperature measured by the TMP36 temperature sensor. The code will also include conditional statements to turn on the light bulb when motion is detected by the PIR sensor.
+
+Conclusion:
+The home automation system using an Arduino board, photo resistor, TMP36 temperature sensor, DC motor, light bulb, and PIR sensor is a comprehensive solution for controlling various elements of the home environment. 
+This system allows the user to monitor and control the light levels, temperature, and motion detection in the home from a single platform, providing convenience and improved comfort. 
+With its easy setup and customizable code, this system is a great choice for anyone looking to improve their home automation capabilities.
